@@ -24,3 +24,11 @@ tasks:
   observer:
     cmds:
       - go run ./observer/*.go
+
+  adapter:
+    cmds:
+      - go run ./adapter/*.go
+
+  facade:
+    cmds:
+      - go run ./facade/*.go
